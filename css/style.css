@@ -1,3 +1,11 @@
+/*Style added my tslmy*/
+.coderwall {
+    width: 100%;
+}
+.coderwall-logo {
+    display: none;
+}
+
 /* general styles */
 
 p {
