@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        {% if page.title and page.title != "" and page.title != nil %}{{ page.title }} - {% endif %}
+        {{ site.title }}
+    </title>
+    <meta name="description" content="{{ site.description }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://andybrewer.github.io/mvp/mvp.css">
+    <link rel="icon" type="image/png" href="{{ site.icon }}">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_id }}"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', '{{ site.ga_id }}');
+    </script>
+</head>
+
+<body>
+    {{ content }}
+    <footer>
+        <p>
+            <small>© {{ 'now' | date: "%Y" }} Mingyang Li. All rights reserved.</small>
+        </p>
+    </footer>
+</body>
+
+</html>

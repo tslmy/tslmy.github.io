@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<header>
+    <nav>
+        <img src="{{ site.icon }}" height=30 style="border-radius: 20px" />
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="https://tilde.club/~my/">Serious</a></li>
+        </ul>
+    </nav>
+    {% if page.header %}
+        {% capture header %}{% include_relative header.md %}{% endcapture %}
+        {{ header | markdownify }}
+    {% endif %}
+</header>
+<main>
+    <article>
+        {{ content }}
+    </article>
+</main>
