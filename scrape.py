@@ -1,4 +1,4 @@
-import time
+from datetime import datetime
 
 import requests
 import yaml
@@ -15,9 +15,9 @@ if __name__ == "__main__":
     data = {
         "hindex": scholarly_info["hindex"],
         "github_followers": github_info["followers"],
-        "updated": time.time(),
+        "updated": datetime.now(),
     }
 
-    with open("data.yaml", "w") as f:
+    with open("_data/metrics.yaml", "w") as f:
         data_as_yaml = yaml.dump(data)
         f.write(data_as_yaml)
