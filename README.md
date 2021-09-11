@@ -4,10 +4,20 @@
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/tslmy/tslmy.github.io/main.svg)](https://results.pre-commit.ci/latest/github/tslmy/tslmy.github.io/main)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
+# Build
 
-`scrape.py` scrapes several websites for some personal metrics. It saves the data to `data.yaml`. I plan to have the data populated to the index page.
+## The Metrics Scraper
+`scrape.py` scrapes several websites for some personal metrics. It saves the data to `_data/metrics.yaml`. The metrics are referenced in the index page (`index.md`).
 
+To run `scrape.py`, please use an virtual environment. Assuming you have [`mambaforge`](https://github.com/conda-forge/miniforge#mambaforge) installed, do:
 
+```shell
+mamba create -n page python=3 -y
+conda activate page
+pip install -r requirements.txt
+```
+
+## The Website Itself
 The Website is statically generated with [Jekyll](https://jekyllrb.com/). To serve it locally, run:
 
 ```shell
