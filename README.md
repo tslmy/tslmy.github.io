@@ -5,9 +5,12 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 # Build
+This website is built with [Cloudflare Pages](https://dash.cloudflare.com/f7bf12f8dd6ca641990492fd26a0a79e/pages/view/homepage) and deployed to [myli.page](https://myli.page), registered via [Google Domains](https://domains.google.com/registrar/myli.page). In this section, let me explain how to build this website locally.
 
 ## The Metrics Scraper
 `scrape.py` scrapes several websites for some personal metrics. It saves the data to `_data/metrics.yaml`. The metrics are referenced in the index page (`index.md`).
+
+This script is not automatically triggered, since it's a scraper by nature, and it would not be nice to scrape the internet upon every push.
 
 To run `scrape.py`, please use an virtual environment. Assuming you have [`mambaforge`](https://github.com/conda-forge/miniforge#mambaforge) installed, do:
 
