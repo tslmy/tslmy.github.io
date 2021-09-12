@@ -1,0 +1,8 @@
+main:
+  - name: "Home"
+    url: "/"
+    weight: 1
+
+  - name: "Serious"
+    url: "https://tilde.club/~my/"
+    weight: 2

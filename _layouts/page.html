@@ -4,9 +4,14 @@ layout: default
 <header>
     <nav>
         <img src="{{ site.icon }}" height=30 style="border-radius: 20px" />
+
+        {% assign mainmenu = site.data.menus.main | sort: 'weight'  %}
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="https://tilde.club/~my/">Serious</a></li>
+        {% for item in mainmenu %}
+            <li class="{% if item.url == page.url %}active{% endif %}">
+                <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+            </li>
+        {% endfor %}
         </ul>
     </nav>
     {% if page.header %}
