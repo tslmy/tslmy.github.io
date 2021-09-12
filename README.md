@@ -4,6 +4,8 @@
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/tslmy/tslmy.github.io/main.svg)](https://results.pre-commit.ci/latest/github/tslmy/tslmy.github.io/main)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
+![Screenshot](screenshot.png)
+
 # Build
 This website is built with [Cloudflare Pages](https://dash.cloudflare.com/f7bf12f8dd6ca641990492fd26a0a79e/pages/view/homepage) and deployed to [myli.page](https://myli.page), registered via [Google Domains](https://domains.google.com/registrar/myli.page). In this section, let me explain how to build this website locally.
 
