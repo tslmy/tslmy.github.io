@@ -6,6 +6,8 @@
 
 ![Screenshot](screenshot.png)
 
+To update this screenshot, run `screenshot.py`.
+
 # Build
 This website is built with [Cloudflare Pages](https://dash.cloudflare.com/f7bf12f8dd6ca641990492fd26a0a79e/pages/view/homepage) and deployed to [myli.page](https://myli.page), registered via [Google Domains](https://domains.google.com/registrar/myli.page). In this section, let me explain how to build this website locally.
 
