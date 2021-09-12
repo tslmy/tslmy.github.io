@@ -20,6 +20,3 @@ I'm teaching myself some music theory, sketching, and video editing now and then
 - [YouTube](https://www.youtube.com/user/Tslmy/videos) channel for videos.
 
 You can [buy me a cup of coffee](https://ko-fi.com/mingyli).
-
-<div id="wcb" class="carbonbadge"></div>
-<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
