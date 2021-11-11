@@ -1,6 +1,7 @@
 ---
 layout: page
 header: header.md
+url: /
 ---
 
 ## Looking for a different persona?
