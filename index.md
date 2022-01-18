@@ -10,7 +10,7 @@ url: /
 - Ming as a **social psychology researcher**: Check out my [Google Scholar](https://scholar.google.com/citations?user=rSJ_vnYAAAAJ) profile for my prior publications. I have a h-index of `{{site.data.metrics.hindex}}`.
 - Ming as a **bookworm**: Friend me on [GoodReads](https://www.goodreads.com/user/show/65767626-mingyang).
 - Ming as a **writer**: I have a [blog](https://lmy.medium.com/) and a [personal Wiki](https://tslmy.gitbook.io/k/).
-- Ming as a **volunteer**: I'm a stand-up comedian at the club of [_Chinese Comedy at Silicon Valley_](https://ggtkx.org/en/). I'm also a member of the [_ZaiGeZaiGu_](https://zgzg.io/) Community.
+- Ming as a **volunteer**: I'm a stand-up comedian at the club of [Chinese Comedy at Silicon Valley](https://ggtkx.org/en/). I'm also a member of the [ZaiGeZaiGu](https://zgzg.io/) Community.
 
 ## Creative Hobbies
 
