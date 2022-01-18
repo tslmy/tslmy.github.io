@@ -19,5 +19,3 @@ I'm teaching myself some music theory, sketching, and video editing now and then
 - [Behance](https://behance.net/mingyli) profile for drawings.
 - [SoundCloud](https://soundcloud.com/tslmy) account for music compositions.
 - [YouTube](https://www.youtube.com/user/Tslmy/videos) channel for videos.
-
-[Buy me a cup of coffee](https://ko-fi.com/mingyli).

@@ -1,5 +1,5 @@
 # I'm Ming,
 
-and I do [stand-up comedy](https://en.wikipedia.org/wiki/Stand-up_comedy).
+and I help build communities.
 
-[**Schedule a chat**](https://lmy.youcanbook.me/)
+[**Book a chat (free)**](https://lmy.youcanbook.me/) [_Donate_](https://ko-fi.com/mingyli)
