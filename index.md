@@ -10,7 +10,7 @@ I organize cultural events at the [ZaiGeZaiGu](https://zgzg.io/) Community.
 
 ## Looking for a different persona?
 
-- **writer**: I have a [blog](https://lmy.medium.com/) and a [personal Wiki](https://tslmy.gitbook.io/k/).
+- **writer**: I have a [blog](https://lmy.medium.com/) (`{{site.data.metrics.medium_followers}}` followers) and a [personal Wiki](https://tslmy.gitbook.io/k/).
 - **software engineer**: Follow me on [GitHub](https://github.com/tslmy). I have `{{site.data.metrics.github_followers}}` followers.
 - **social psychology researcher**: Check out my [Google Scholar](https://scholar.google.com/citations?user=rSJ_vnYAAAAJ) profile for my prior publications. I have a h-index of `{{site.data.metrics.hindex}}`.
 - **bookworm**: Friend me on [GoodReads](https://www.goodreads.com/user/show/65767626-mingyang).
