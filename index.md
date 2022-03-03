@@ -20,6 +20,8 @@ I organize cultural events at the [ZaiGeZaiGu](https://zgzg.io/) Community.
 I'm teaching myself some music theory, sketching, and video editing now and then. Please refer to my...
 
 - [Behance](https://behance.net/mingyli) profile for drawings.
-- [ShutterStock](https://www.shutterstock.com/g/tslmy) for licensable photography.
+- [ShutterStock](https://www.shutterstock.com/g/tslmy) for licensable photos.
+- [Google Photos](https://photos.app.goo.gl/LK5UzYw5WH2boRM36) for portrait photography.
+- [Anchor](https://anchor.fm/lmy) for my podcast (Mandarin Chinese). I dig the most interesting life stories from everyday acquaintances.
 - [SoundCloud](https://soundcloud.com/tslmy) account for music compositions.
 - [YouTube](https://www.youtube.com/user/Tslmy/videos) channel for videos.
