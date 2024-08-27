@@ -4,9 +4,18 @@ header: header.md
 url: /
 ---
 
-I host open-mics at the club [Chinese Comedy at Silicon Valley](https://ggtkx.org/en/). I also perform as a stand-up comedian at times.
+## How can I help?
 
-I organize cultural events at the [ZaiGeZaiGu](https://zgzg.io/) Community.
+You may book me for the following services:
+
+- taking photos for people,
+- ordaining a wedding,
+- reviewing software code and system designs,
+- giving mock interviews for programming roles,
+- editing your writings, and
+- walking with you if you are too afraid to go somewhere alone.
+
+Let's talk. Our first 30-min consultation will be free.
 
 ## Looking for a different persona?
 
@@ -15,13 +24,7 @@ I organize cultural events at the [ZaiGeZaiGu](https://zgzg.io/) Community.
 - **social psychology researcher**: Check out my [Google Scholar](https://scholar.google.com/citations?user=rSJ_vnYAAAAJ) profile for my prior publications. I have a h-index of `{{site.data.metrics.hindex}}`.
 - **bookworm**: Friend me on [GoodReads](https://www.goodreads.com/user/show/65767626-mingyang).
 
-## Creative Hobbies
+Other creative works:
 
-I'm teaching myself some music theory, sketching, and video editing now and then. Please refer to my...
-
-- [Behance](https://behance.net/mingyli) profile for drawings.
 - [ShutterStock](https://www.shutterstock.com/g/tslmy) for licensable photos.
-- [Google Photos](https://photos.app.goo.gl/LK5UzYw5WH2boRM36) for portrait photography.
-- [Anchor](https://anchor.fm/lmy) for my podcast (Mandarin Chinese). I dig the most interesting life stories from everyday acquaintances.
 - [SoundCloud](https://soundcloud.com/tslmy) account for music compositions.
-- [YouTube](https://www.youtube.com/user/Tslmy/videos) channel for videos.
