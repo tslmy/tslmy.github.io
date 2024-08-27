@@ -20,7 +20,6 @@ from docopt import docopt
 from PIL import Image
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from webdriver_manager.chrome import ChromeDriverManager
 
 if __name__ == "__main__":
     # Read options.
@@ -33,7 +32,7 @@ if __name__ == "__main__":
     # Take screenshot.
     options = Options()
     options.headless = True
-    driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+    driver = webdriver.Chrome(options=options)
     driver.get(args["URL"])
     driver.set_window_size(args["SIZE"] * 2, args["SIZE"] * 2)
     image = driver.get_screenshot_as_png()
