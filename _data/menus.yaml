@@ -3,6 +3,6 @@ main:
     url: "/"
     weight: 1
 
-  - name: "Serious"
-    url: "https://tilde.club/~my/"
+  - name: "Blog"
+    url: "https://blog.myli.page/"
     weight: 2
