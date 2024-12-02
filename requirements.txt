@@ -14,7 +14,7 @@ free-proxy==1.0.3
 future==0.18.2
 idna==3.2
 imagesize==1.2.0
-Jinja2==3.0.1
+Jinja2==3.1.4
 lxml==4.9.1
 MarkupSafe==2.0.1
 packaging==21.0
