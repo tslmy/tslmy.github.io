@@ -1,15 +1,19 @@
-import re
+# /// script
+# dependencies = [
+#   "requests",
+#   "pyyaml",
+#   "scholarly",
+# ]
+# ///
+
 from datetime import datetime
 
 import requests
 import yaml
-from bs4 import BeautifulSoup as Soup
-from medium import Client
 from scholarly import scholarly
 
 google_scholar_id = "rSJ_vnYAAAAJ"
 github_username = "tslmy"
-medium_about = "https://lmy.medium.com/about"
 
 if __name__ == "__main__":
     author = scholarly.search_author_id(google_scholar_id)
@@ -22,13 +26,8 @@ if __name__ == "__main__":
         "updated": datetime.now(),
     }
 
-    response = requests.get(medium_about)
-    text = response.text
-    p = re.compile(r"(\d+) Followers")
-    m = p.search(text)
-    if m:
-        num_followers = int(m.groups()[0])
-        data["medium_followers"] = num_followers
+    # Note: Medium scraping removed due to Cloudflare protection requiring JavaScript rendering
+    # To add back, would need selenium/playwright for browser automation
 
     with open("_data/metrics.yaml", "w") as f:
         data_as_yaml = yaml.dump(data)

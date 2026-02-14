@@ -16,13 +16,19 @@ This website is built with [Cloudflare Pages](https://dash.cloudflare.com/f7bf12
 
 This script is not automatically triggered, since it's a scraper by nature, and it would not be nice to scrape the internet upon every push.
 
-To run `scrape.py`, please use an virtual environment. Assuming you have [`mambaforge`](https://github.com/conda-forge/miniforge#mambaforge) installed, do:
+To run `scrape.py`, please use [`uv`](https://docs.astral.sh/uv/). Install it via Homebrew:
 
 ```shell
-mamba create -n page python=3 -y
-conda activate page
-pip install -r requirements.txt
+brew install uv
 ```
+
+Then run the scraper with:
+
+```shell
+uv run scrape.py
+```
+
+`uv` will automatically install all dependencies defined in the script.
 
 ## The Website Itself
 The Website is statically generated with [Jekyll](https://jekyllrb.com/). To serve it locally, run:

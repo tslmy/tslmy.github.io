@@ -17,7 +17,7 @@ Let's talk. Our first 30-min consultation will be free.
 
 ## Looking for a different persona?
 
-- **writer**: Join my `{{site.data.metrics.medium_followers}}` followers on [blog](https://blog.myli.page/).
+- **writer**: I have a [blog](https://blog.myli.page/).
 - **software engineer**: Join my `{{site.data.metrics.github_followers}}` followers on [GitHub](https://github.com/tslmy).
 - **social psychology researcher**: Check out my [Google Scholar](https://scholar.google.com/citations?user=rSJ_vnYAAAAJ) profile for my prior publications. I have a h-index of `{{site.data.metrics.hindex}}`.
 - **bookworm**: Friend me on [GoodReads](https://www.goodreads.com/user/show/65767626-mingyang).
